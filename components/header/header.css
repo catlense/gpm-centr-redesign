@@ -31,6 +31,15 @@ header .main-line {
   padding-right: 15px;
 }
 
+@media (max-width: 420px) {
+  header .main-line {
+    margin: 0 auto;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
 header .main-line .addresses {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -91,6 +100,12 @@ header .main-line .addresses .address-cart .address-text p.text {
   margin-top: 3px;
 }
 
+@media (max-width: 980px) {
+  header .main-line .addresses .address-cart {
+    display: none;
+  }
+}
+
 header .main-line .backcall {
   font-weight: bold;
   color: white;
@@ -117,10 +132,57 @@ header .main-line .backcall:hover {
           box-shadow: 0px 10px 35px rgba(25, 221, 67, 0.377);
 }
 
+@media (max-width: 420px) {
+  header .main-line .backcall {
+    display: none;
+  }
+}
+
 header .navigation {
   width: 100%;
   height: 60px;
   background-color: #38D35B;
+  -webkit-transition: height 0.3s;
+  transition: height 0.3s;
+}
+
+header .navigation.active {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+header .navigation.active > ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0px;
+  width: 100%;
+}
+
+header .navigation.active > ul li {
+  display: block;
+  background-color: #f9f9f9;
+  color: #38D35B;
+  font-weight: bold;
+  width: 100%;
+}
+
+header .navigation.active > ul li:hover {
+  color: green;
+}
+
+header .navigation.active > ul li:hover ul {
+  display: none;
 }
 
 header .navigation ul {
@@ -154,6 +216,25 @@ header .navigation ul > li {
   padding-left: 15px;
   padding-right: 15px;
   position: relative;
+}
+
+@media (max-width: 880px) {
+  header .navigation ul > li {
+    display: none;
+  }
+}
+
+header .navigation ul > li.navmenu {
+  display: none;
+}
+
+@media (max-width: 880px) {
+  header .navigation ul > li.navmenu {
+    display: block;
+    width: 100%;
+    background-color: #38D35B;
+    color: white;
+  }
 }
 
 header .navigation ul > li:hover {
@@ -205,7 +286,7 @@ header .navigation ul > li ul li.multiply ul {
 }
 
 header .navigation ul > li ul li.multiply ul li {
-  background: #5F5F5F;
+  background: #5f5f5f;
 }
 
 header .navigation ul > li ul li.multiply ul li:hover {
