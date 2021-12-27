@@ -8,5 +8,4 @@ backcall.onclick = () => {
 
 navmenu.onclick = () => {
   navbar.classList.toggle('active') ? navmenu.innerText = 'Закрыть' : navmenu.innerText = 'Навигация'
-
 }

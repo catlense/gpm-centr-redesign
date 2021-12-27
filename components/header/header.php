@@ -32,31 +32,31 @@
     </div>
   </div>
 
-  <div class="navigation">
-    <ul>
-      <li><a href="/#about">О компании</a></li>
-      <li>
-        <a href="/#catalog">Каталог продукции</a>
-        <ul>
-          <li class="multiply">
-            test
-            <ul>
-              <li>test</li>
-              <li>test</li>
-            </ul>
-          </li>
-          <li>test</li>
-          <li>test</li>
-          <li>test</li>
-          <li>test</li>
+</header>
+<div class="navigation">
+  <ul>
+    <li><a href="/#about">О компании</a></li>
+    <li>
+      <a href="/#catalog">Каталог продукции</a>
+      <ul>
+        <li class="multiply">
+          test
+          <ul>
+            <li>test</li>
+            <li>test</li>
           </ul>
         </li>
-        <li><a href="/#news">Новости</a></li>
-      <li><a href="/#lizing">Лизинговые программы</a></li>
-      <li><a href="/#contacts">Контакты</a></li>
-      <li class="navmenu">Навигация</li>
-    </ul>
-  </div>
-</header>
+        <li>test</li>
+        <li>test</li>
+        <li>test</li>
+        <li>test</li>
+        </ul>
+      </li>
+      <li><a href="/#news">Новости</a></li>
+    <li><a href="/#lizing">Лизинговые программы</a></li>
+    <li><a href="/#contacts">Контакты</a></li>
+    <li class="navmenu">Навигация</li>
+  </ul>
+</div>
 
 <script src="/js/app.js"></script>
