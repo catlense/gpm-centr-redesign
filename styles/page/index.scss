@@ -1,6 +1,56 @@
+@import "../variables.scss";
+
 .main-slider {
   width: 100%;
   height: calc(100vh - 180px);
   overflow: hidden;
   user-select: none;
+  .swiper-slide {
+    background-size: cover !important;
+    background-position: center !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    h1 {
+      color: white;
+      max-width: 560px;
+      text-align: center;
+    }
+    button {
+      padding: 15px 25px;
+      border-radius: 50px;
+      border: none;
+      background: $commonColor;
+      color: white;
+      font-weight: bold;
+      font-size: 14px;
+      box-shadow: 0px 5px 25px rgba(30, 235, 75, 0.25);
+      cursor: pointer;
+      transition: background.3s;
+      margin-top: 20px;
+      &:hover {
+        background: $commonHover;
+      }
+    }
+  }
+  .swiper-navigation {
+    position: absolute;
+    top: 50%;
+    z-index: 9999;
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    left: calc(15%);
+    .main-slider-prev {
+      cursor: pointer;
+    }
+    .swiper-button-disabled {
+      opacity: .5;
+    }
+    .main-slider-next {
+      margin-left: auto;
+      cursor: pointer;
+    }
+  }
 }

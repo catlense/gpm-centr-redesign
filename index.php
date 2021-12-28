@@ -15,11 +15,22 @@
   <div class="first-block">
     <div class="main-slider">
       <div class="swiper-wrapper">
-        <div class="swiper-slide">Slide1</div>
+        <div class="swiper-slide" style="background: url(/images/slider/1.png)">
+          <h1>ООО "ГПМ-Центр" - официальный дилер Zoomlion Havy Industry Science & Technology Co., Ltd.</h1>
+          <button>О компании</button>
+        </div>
         <div class="swiper-slide">Slide2</div>
         <div class="swiper-slide">Slide3</div>
         <div class="swiper-slide">Slide4</div>
         <div class="swiper-slide">Slide5</div>
+      </div>
+      <div class="swiper-navigation">
+        <div class="main-slider-prev">
+          <img src="/images/left-arrow.png" alt="">
+        </div>
+        <div class="main-slider-next">
+          <img src="/images/right-arrow.png" alt="">
+        </div>
       </div>
     </div>
   </div>

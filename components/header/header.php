@@ -40,10 +40,14 @@
       <a href="/#catalog">Каталог продукции</a>
       <ul>
         <li class="multiply">
-          test
+          <a href="#test">test</a>
           <ul>
-            <li>test</li>
-            <li>test</li>
+            <li>
+              <a href="#test">test</a>
+            </li>
+            <li>
+              <a href="#test">test</a>
+            </li>
           </ul>
         </li>
         <li>test</li>
