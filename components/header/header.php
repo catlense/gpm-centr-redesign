@@ -1,3 +1,4 @@
+<?php include './all_products.array.php'; ?>
 <link rel="stylesheet" href="/components/header/header.css">
 
 <header>
@@ -40,20 +41,31 @@
       <a href="/#catalog">Каталог продукции</a>
       <ul>
         <li class="multiply">
-          <a href="#test">test</a>
+          <a href="">Подъёмники</a>
           <ul>
             <li>
-              <a href="#test">test</a>
+              <a href="/catalog/teleskopicheskie-pod-jomniki">Телескопические подъемники</a>
             </li>
             <li>
-              <a href="#test">test</a>
+              <a href="/catalog/kolenchatye-pod-jomniki">Коленчатые подъемники</a>
+            </li>
+            <li>
+              <a href="/catalog/nozhnichnye-pod-jomniki">Ножничные подъемники</a>
             </li>
           </ul>
         </li>
-        <li>test</li>
-        <li>test</li>
-        <li>test</li>
-        <li>test</li>
+        <li class="multiply">
+          <a href="/catalog/vp">Вилочные погрузчики</a>
+          <ul>
+            <li>
+              <a href="/catalog/vp-diz">Дизельные погрузчики</a>
+            </li>
+            <li>
+              <a href="/catalog/vp-el">Электрические погрузчики</a>
+            </li>
+          </ul>
+        </li>
+        <li><a href="/catalog/ekskavatory">Экскаваторы</a></li>
         </ul>
       </li>
       <li><a href="/#news">Новости</a></li>
@@ -62,5 +74,4 @@
     <li class="navmenu">Навигация</li>
   </ul>
 </div>
-
 <script src="/js/app.js"></script>

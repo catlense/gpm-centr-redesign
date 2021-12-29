@@ -215,7 +215,13 @@ header .main-line .backcall:hover {
   font-weight: bold;
   list-style: none;
   cursor: pointer;
-  line-height: 60px;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-align: center;
   padding-left: 15px;
   padding-right: 15px;
@@ -263,6 +269,7 @@ header .main-line .backcall:hover {
   width: calc(100% - 15px);
   display: none;
   margin-left: -15px;
+  margin-top: 120px;
 }
 
 .navigation ul > li ul li {
@@ -275,6 +282,10 @@ header .main-line .backcall:hover {
   position: relative;
 }
 
+.navigation ul > li ul li > ul {
+  margin-top: 0;
+}
+
 .navigation ul > li ul li:hover {
   background: #3e3e3e;
 }
@@ -284,12 +295,11 @@ header .main-line .backcall:hover {
   position: absolute;
   right: 18px;
   font-size: 36px;
-  top: -4px;
+  top: 2px;
 }
 
 .navigation ul > li ul li.multiply ul {
   right: calc(-100% + 15px);
-  top: 0%;
 }
 
 .navigation ul > li ul li.multiply ul li {
