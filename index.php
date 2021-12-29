@@ -13,6 +13,7 @@
   <?php include 'components/header/header.php' ?>
   
   <div class="first-block">
+    <a href="#hot">Горячие предложения</a>
     <div class="main-slider">
       <div class="swiper-wrapper">
         <div class="swiper-slide" style="background: url(/images/slider/1.png)">
@@ -50,7 +51,23 @@
 
   <div class="third-block" id="catalog">
     <h1>Каталог продукции</h1>
-    <!-- catalog -->
+    <div class="catalog">
+      <div class="cart" href="vp" style="background: url(/images/static/vp.png) #fff">
+        Вилочные погрузчики
+      </div>
+      <div class="cart" href="ekskavatory" style="background: url(/images/static/ekskavatory.png) #fff">
+        Экскаваторы
+      </div>
+      <div class="cart" href="teleskopicheskie-pod-jomniki" style="background: url(/images/static/podjomniki.png) #fff">
+        Телескопические подъёмники
+      </div>
+      <div class="cart" href="kolenchatye-pod-jomniki" style="background: url(/images/static/kolenchetie-podjomniki.png) #fff">
+        Коленчатые подъёмники
+      </div>
+      <div class="cart" href="nozhnichnye-pod-jomnik" style="background: url(/images/static/nozhnichnie-podjomniki.png) #fff">
+        Вилочные погрузчики
+      </div>
+    </div>
   </div>
 
   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />

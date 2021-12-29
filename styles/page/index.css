@@ -1,3 +1,23 @@
+.first-block {
+  position: relative;
+}
+
+.first-block a[href="#hot"] {
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 50px;
+  color: white;
+  background: #FF2E2E;
+  position: absolute;
+  z-index: 9999;
+  text-decoration: none;
+  font-weight: bold;
+  left: 30px;
+  top: 30px;
+}
+
 .main-slider {
   width: 100%;
   height: calc(100vh - 180px);
@@ -154,5 +174,51 @@
 .third-block h1 {
   text-align: center;
   margin-top: 75px;
+}
+
+.third-block .catalog {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-top: 74px;
+}
+
+.third-block .catalog .cart {
+  margin-left: 15px;
+  margin-right: 15px;
+  background-size: cover !important;
+  background-position: center !important;
+  width: calc(100% - 145px);
+  max-width: 420px;
+  height: 250px;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  font-weight: bold;
+  padding-left: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 28px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+@media (max-width: 350px) {
+  .third-block .catalog .cart {
+    font-size: 18px;
+  }
 }
 /*# sourceMappingURL=index.css.map */
