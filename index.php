@@ -20,10 +20,10 @@
           <h1>ООО "ГПМ-Центр" - официальный дилер Zoomlion Havy Industry Science & Technology Co., Ltd.</h1>
           <button>О компании</button>
         </div>
-        <div class="swiper-slide">Slide2</div>
-        <div class="swiper-slide">Slide3</div>
-        <div class="swiper-slide">Slide4</div>
-        <div class="swiper-slide">Slide5</div>
+        <div class="swiper-slide">Slide 2</div>
+        <div class="swiper-slide">Slide 3</div>
+        <div class="swiper-slide">Slide 4</div>
+        <div class="swiper-slide">Slide 5</div>
       </div>
       <div class="swiper-navigation">
         <div class="main-slider-prev">
