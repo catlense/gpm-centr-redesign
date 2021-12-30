@@ -6,11 +6,22 @@ const mainSlider = new Swiper('.main-slider', {
 })
 
 const hotSlider = new Swiper('.hot-slider', {
-  slidesPerView: 4,
+  slidesPerView: 1,
   spaceBetween: 30,
   navigation: {
     nextEl: ".hot-slider-next",
     prevEl: ".hot-slider-prev"
+  },
+  breakpoints: {
+    1200: {
+      slidesPerView: 4
+    },
+    900: {
+      slidesPerView: 3
+    },
+    440: {
+      slidesPerView: 2
+    }
   }
 })
 

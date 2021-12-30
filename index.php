@@ -136,6 +136,10 @@
     </div>
   </div>
 
+  <div class="fifth-block" id="lizing">
+    <h1>Лизинговые программы</h1>
+  </div>
+
   <div class="fourth-block" id="cert">
     <div class="hot-slider cert-slider">
       <div class="slider-navigation">

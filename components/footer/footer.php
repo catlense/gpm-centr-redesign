@@ -4,6 +4,31 @@
       <img src="/images/static/logo_footer.svg" alt="">
       <p>© 2021 Все права защищены</p>
     </div>
+    <div class="col s-col">
+      <p class="title">Продукция</p>
+      <div class="links">
+        <a href="/test">Тест 1</a>
+        <a href="/test">Тест 1</a>
+        <a href="/test">Тест 1</a>
+        <a href="/test">Тест 1</a>
+        <a href="/test">Тест 1</a>
+        <a href="/test">Тест 1</a>
+        <a href="/test">Тест 1</a>
+        <a href="/test">Тест 1</a>
+        <a href="/test">Тест 1</a>
+        <a href="/test">Тест 1</a>
+        <a href="/test">Тест 1</a>
+      </div>
+    </div>
+    <div class="col">
+      <p class="title">Контакты</p>
+      <div class="links">
+        <a href="tel:88001016423">8 800 101 64 23</a>
+        <a href="mailto:info@gpm-centr.ru">info@gpm-centr.ru</a>
+        <a href="mailto:sales@gpm-centr.ru">sales@gpm-centr.ru</a>
+        <p>117342, г. Москва, ул. Бутлерова, д 17 Б</p>
+      </div>
+    </div>
   </div>
 </footer>
 
