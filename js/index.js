@@ -5,6 +5,24 @@ const mainSlider = new Swiper('.main-slider', {
   }
 })
 
+const hotSlider = new Swiper('.hot-slider', {
+  slidesPerView: 4,
+  spaceBetween: 30,
+  navigation: {
+    nextEl: ".hot-slider-next",
+    prevEl: ".hot-slider-prev"
+  }
+})
+
+const certSlider = new Swiper('.cert-slider', {
+  slidesPerView: "auto",
+  spaceBetween: 50,
+  navigation: {
+    nextEl: ".hot-slider-next",
+    prevEl: ".hot-slider-prev"
+  }
+})
+
 const cartLinks = document.querySelectorAll('.cart[href]')
 
 cartLinks.forEach(e => {
@@ -12,24 +30,3 @@ cartLinks.forEach(e => {
     window.location.href = `/catalog/${e.getAttribute('href')}`
   }
 })
-
-document.querySelectorAll('a[href^="#"').forEach(link => {
-
-  link.onclick = function (e) {
-    e.preventDefault();
-
-    let href = this.getAttribute('href').substring(1);
-
-    const scrollTarget = document.getElementById(href);
-
-    //const topOffset = document.querySelector(``).offsetHeight;
-     const topOffset = 80; // если не нужен отступ сверху 
-    const elementPosition = scrollTarget.getBoundingClientRect().top;
-    const offsetPosition = elementPosition - topOffset;
-
-    window.scrollBy({
-      top: offsetPosition,
-      behavior: 'smooth'
-    });
-  }
-});

@@ -10,15 +10,23 @@ navmenu.onclick = () => {
   navbar.classList.toggle('active') ? navmenu.innerText = 'Закрыть' : navmenu.innerText = 'Навигация'
 }
 
-const smoothLinks = document.querySelectorAll('a[href^="#"]');
-for (let smoothLink of smoothLinks) {
-  smoothLink.addEventListener('click', function (e) {
-    e.preventDefault();
-    const id = smoothLink.getAttribute('href');
+document.querySelectorAll('a[href^="#"').forEach(link => {
 
-    document.querySelector(id).scrollIntoView({
-      behavior: 'smooth',
-      block: 'start'
+  link.onclick = function (e) {
+    e.preventDefault();
+
+    let href = this.getAttribute('href').substring(1);
+
+    const scrollTarget = document.getElementById(href);
+
+    //const topOffset = document.querySelector(``).offsetHeight;
+     const topOffset = 80; // если не нужен отступ сверху 
+    const elementPosition = scrollTarget.getBoundingClientRect().top;
+    const offsetPosition = elementPosition - topOffset;
+
+    window.scrollBy({
+      top: offsetPosition,
+      behavior: 'smooth'
     });
-  });
-};
+  }
+});

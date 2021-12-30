@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
 @import "variables.scss";
+@import "../components/productCart/productCart.scss";
+@import "../components/newsCart/newsCart.scss";
 
 * {
   font-family: 'Montserrat', sans-serif;

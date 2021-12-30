@@ -74,4 +74,3 @@
     <li class="navmenu">Навигация</li>
   </ul>
 </div>
-<script src="/js/app.js"></script>

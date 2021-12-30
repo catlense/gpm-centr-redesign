@@ -18,7 +18,7 @@
       <div class="swiper-wrapper">
         <div class="swiper-slide" style="background: url(/images/slider/1.png)">
           <h1>ООО "ГПМ-Центр" - официальный дилер Zoomlion Havy Industry Science & Technology Co., Ltd.</h1>
-          <button>О компании</button>
+          <a href="#about"><button>О компании</button></a>
         </div>
         <div class="swiper-slide">Slide 2</div>
         <div class="swiper-slide">Slide 3</div>
@@ -70,8 +70,108 @@
     </div>
   </div>
 
+  <div class="fourth-block" id="hot">
+    <div class="hot-slider">
+      <div class="slider-navigation">
+        <h1>Горячие предложения</h1>
+        <div class="buttons">
+          <div class="hot-slider-prev">
+            <img src="/images/go-button.svg" alt="">
+          </div>
+          <div class="hot-slider-next">
+            <img src="/images/go-button.svg" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <?php include 'components/productCart/productCart.php'; ?>
+        </div>
+        <div class="swiper-slide">
+          <?php include 'components/productCart/productCart.php'; ?>
+        </div>
+        <div class="swiper-slide">
+          <?php include 'components/productCart/productCart.php'; ?>
+        </div>
+        <div class="swiper-slide">
+          <?php include 'components/productCart/productCart.php'; ?>
+        </div>
+        <div class="swiper-slide">
+          <?php include 'components/productCart/productCart.php'; ?>
+        </div>        
+      </div>
+    </div>
+  </div>
+
+  <div class="fourth-block" id="news">
+    <div class="hot-slider">
+      <div class="slider-navigation">
+        <h1>Новости</h1>
+        <div class="buttons">
+          <div class="hot-slider-prev">
+            <img src="/images/go-button.svg" alt="">
+          </div>
+          <div class="hot-slider-next">
+            <img src="/images/go-button.svg" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <?php include 'components/newsCart/newsCart.php'; ?>
+        </div>
+        <div class="swiper-slide">
+          <?php include 'components/newsCart/newsCart.php'; ?>
+        </div>
+        <div class="swiper-slide">
+          <?php include 'components/newsCart/newsCart.php'; ?>
+        </div>
+        <div class="swiper-slide">
+          <?php include 'components/newsCart/newsCart.php'; ?>
+        </div>
+        <div class="swiper-slide">
+          <?php include 'components/newsCart/newsCart.php'; ?>
+        </div>        
+      </div>
+    </div>
+  </div>
+
+  <div class="fourth-block" id="cert">
+    <div class="hot-slider cert-slider">
+      <div class="slider-navigation">
+        <h1>Сертификаты</h1>
+        <div class="buttons">
+          <div class="hot-slider-prev">
+            <img src="/images/go-button.svg" alt="">
+          </div>
+          <div class="hot-slider-next">
+            <img src="/images/go-button.svg" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="/images/certificates/1.png" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img src="/images/certificates/2.png" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img src="/images/certificates/3.png" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img src="/images/certificates/4.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <?php include 'components/footer/footer.php' ?>
+
   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
   <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
   <script src="/js/index.js"></script>
+  <script src="/js/app.js"></script>
+
 </body>
 </html>
