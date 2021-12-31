@@ -138,6 +138,40 @@
 
   <div class="fifth-block" id="lizing">
     <h1>Лизинговые программы</h1>
+    <div class="carts">
+
+      <div class="l-col">
+        <div class="cart">
+          <div class="image">
+            <img src="/images/lizing/sber.png" alt="Sber">
+          </div>
+          <div class="text">
+            <h1>Сбер-лизинг</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dolorum quo consectetur.</p>
+          </div>
+        </div>
+        <div class="cart">
+          <div class="image">
+            <img src="/images/lizing/sber.png" alt="Sber">
+          </div>
+          <div class="text">
+            <h1>Сбер-лизинг</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dolorum quo consectetur.</p>
+          </div>
+        </div>
+      </div>
+      <div class="r-col">
+        <div class="cart">
+          <div class="image">
+            <img src="/images/lizing/sber.png" alt="Sber">
+          </div>
+          <div class="text">
+            <h1>Сбер-лизинг</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dolorum quo consectetur.</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
   <div class="fourth-block" id="cert">
