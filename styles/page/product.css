@@ -1,0 +1,118 @@
+.up-pane {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (max-width: 900px) {
+  .up-pane {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.up-pane .swiper-images {
+  max-width: 40%;
+  overflow: hidden;
+  max-height: 375px;
+  position: relative;
+}
+
+@media (max-width: 900px) {
+  .up-pane .swiper-images {
+    max-width: 100%;
+  }
+}
+
+.up-pane .swiper-images .swiper-slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-height: 375px;
+}
+
+.up-pane .swiper-images .swiper-slide img {
+  width: 100%;
+}
+
+.up-pane .swiper-images .swiper-navigation {
+  position: absolute;
+  top: calc(50% - 48px);
+  z-index: 9999;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.up-pane .swiper-images .swiper-navigation > div {
+  cursor: pointer;
+}
+
+.up-pane .description {
+  margin-left: 25px;
+}
+
+@media (max-width: 900px) {
+  .up-pane .description {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+}
+
+.up-pane .description .short p, .up-pane .description .normal p {
+  margin: 0;
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+.up-pane .description .short p span, .up-pane .description .normal p span {
+  font-weight: bold;
+}
+
+.up-pane .description .normal p {
+  margin-top: 15px;
+}
+
+.params {
+  width: 100%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.params tr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.params tr td {
+  padding: 20px;
+}
+
+.params tr td:last-child {
+  margin-left: auto;
+}
+
+.params tr:first-child {
+  background: #a8c83d !important;
+  font-weight: 500;
+}
+
+.params tr:nth-child(odd) {
+  background: #eee;
+  border-top: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
+}
+/*# sourceMappingURL=product.css.map */

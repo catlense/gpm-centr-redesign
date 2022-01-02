@@ -14,7 +14,8 @@ navmenu.onclick = () => {
   navbar.classList.toggle('active') ? navmenu.innerText = 'Закрыть' : navmenu.innerText = 'Навигация'
 }
 
-document.querySelector('.sendBackcall').onclick = () => {
+document.querySelector('.sendBackcall').onclick = (e) => {
+  e.preventDefault()
   let name = document.querySelector('form #name')
   let phone = document.querySelector('form #phone')
   let mail = document.querySelector('form #mail')
