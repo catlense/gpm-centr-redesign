@@ -87,4 +87,10 @@ footer .container p:not(.title) {
 footer .container .s-col a {
   width: 50%;
 }
+
+@media (max-width: 760px) {
+  footer .container .s-col a {
+    width: 100%;
+  }
+}
 /*# sourceMappingURL=footer.css.map */

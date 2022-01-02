@@ -1,0 +1,35 @@
+.search-form {
+  display: inline-flex;
+  border-radius: 8px;
+  border: 1px solid #eee;
+  overflow: hidden;
+  width: 308px;
+  input {
+    width: 260px;
+    height: 48px;
+    padding: 0;
+    border: none;
+    outline: none;
+    padding-left: 15px;
+  }
+  button {
+    width: 48px;
+    height: 48px;
+    border: none;
+    background: #F3F3F3;
+    border-left: 1px solid #eee;
+    font-size: 18px;
+  }
+}
+
+.catalog-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 30px;
+  .news-cart {
+    max-width: 33%;
+    width: 30%;
+    margin-bottom: 30px;
+  }
+}

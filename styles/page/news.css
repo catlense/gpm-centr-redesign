@@ -1,0 +1,45 @@
+.search-form {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  border-radius: 8px;
+  border: 1px solid #eee;
+  overflow: hidden;
+  width: 308px;
+}
+
+.search-form input {
+  width: 260px;
+  height: 48px;
+  padding: 0;
+  border: none;
+  outline: none;
+  padding-left: 15px;
+}
+
+.search-form button {
+  width: 48px;
+  height: 48px;
+  border: none;
+  background: #F3F3F3;
+  border-left: 1px solid #eee;
+  font-size: 18px;
+}
+
+.catalog-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 30px;
+}
+
+.catalog-form .news-cart {
+  max-width: 33%;
+  width: 30%;
+  margin-bottom: 30px;
+}
+/*# sourceMappingURL=news.css.map */
