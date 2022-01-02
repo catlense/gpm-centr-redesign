@@ -74,3 +74,18 @@
     <li class="navmenu">Навигация</li>
   </ul>
 </div>
+
+<div class="backcall-popup">
+  <div class="container">
+    <p class="backcall-close">×</p>
+    <p class="info">Заполните форму и мы свяжемся с Вами в ближайшее время</p>
+    <form>
+      <input type="text" name="name" id="name" placeholder="Ваше имя">
+      <input type="tel" name="phone" id="phone" placeholder="Ваш телефон *">
+      <input type="email" name="mail" id="mail" placeholder="Ваша почта">
+      <input type="text" name="quest" id="quest" placeholder="Ваш вопрос *">
+      <button class="sendBackcall">Отправить</button>
+      <div class="status"></div>
+    </form>
+  </div>
+</div>
