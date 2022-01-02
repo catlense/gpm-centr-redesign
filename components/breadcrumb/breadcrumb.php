@@ -10,6 +10,7 @@
     display: flex;
     margin-top: 20px;
     margin-bottom: 20px;
+    align-items: center;
   }
   .breadcrumb a {
     display: block;
