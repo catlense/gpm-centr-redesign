@@ -117,21 +117,19 @@
         </div>
       </div>
       <div class="swiper-wrapper">
-        <div class="swiper-slide">
-          <?php include 'components/newsCart/newsCart.php'; ?>
-        </div>
-        <div class="swiper-slide">
-          <?php include 'components/newsCart/newsCart.php'; ?>
-        </div>
-        <div class="swiper-slide">
-          <?php include 'components/newsCart/newsCart.php'; ?>
-        </div>
-        <div class="swiper-slide">
-          <?php include 'components/newsCart/newsCart.php'; ?>
-        </div>
-        <div class="swiper-slide">
-          <?php include 'components/newsCart/newsCart.php'; ?>
-        </div>        
+        <?php
+        include 'news.array.php';
+        foreach ($news as $post) {
+          $n_image = $post['image'];
+          $n_date = $post['date'];
+          $n_title = $post['title'];
+          $n_description = $post['description'];
+          $n_link = $post['link'];
+          echo '<div class="swiper-slide">';
+          include 'components/newsCart/newsCart.php';
+          '</div>';
+        }
+        ?>    
       </div>
     </div>
   </div>

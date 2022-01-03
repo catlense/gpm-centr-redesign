@@ -7,7 +7,8 @@ RewriteRule ^product/(.+)$ product.php?link=$1 [L,QSA]
 RewriteRule ^catalog/(.+)$ catalog.php?link=$1 [L,QSA]
 RewriteRule ^catalog catalog.php [L,QSA]
 
+RewriteRule ^post/(.+)$ post.php?link=$1 [L,QSA]
+
 RewriteRule ^news news.php
-RewriteRule ^post post.php
 
 RewriteRule contacts contacts.php
