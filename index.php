@@ -84,21 +84,21 @@
         </div>
       </div>
       <div class="swiper-wrapper">
-        <div class="swiper-slide">
-          <?php include 'components/productCart/productCart.php'; ?>
-        </div>
-        <div class="swiper-slide">
-          <?php include 'components/productCart/productCart.php'; ?>
-        </div>
-        <div class="swiper-slide">
-          <?php include 'components/productCart/productCart.php'; ?>
-        </div>
-        <div class="swiper-slide">
-          <?php include 'components/productCart/productCart.php'; ?>
-        </div>
-        <div class="swiper-slide">
-          <?php include 'components/productCart/productCart.php'; ?>
-        </div>        
+        <?php
+        foreach($hot as $product) {
+          $image = $product['main_img'];
+          $title = $product['title'];
+          $descriptions = $product['description'];
+          $link = $product['link'];
+          $description = '';
+          foreach($descriptions as $param => $key) {
+            $description .= "$param <b>$key</b><br/>";
+          }
+          echo "<div class='swiper-slide'>";
+            include 'components/productCart/productCart.php';
+          echo "</div>";
+        }
+        ?>   
       </div>
     </div>
   </div>

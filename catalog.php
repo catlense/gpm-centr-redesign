@@ -11,10 +11,26 @@
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
 </head>
 <body>
-  <?php include 'components/header/header.php' ?>
+  <?php include 'components/header/header.php';
+        include 'all_products.array.php';
+  ?>
   <div class="page-container">
     <?php
-    $breadcrumb = ['/'=>'Главная', '/catalog'=>'Каталог продукции'];
+    $link = '';
+    $title = '';
+    if(!empty(trim($_GET['link']))) {
+      foreach ($categories as $category) {
+        if($category['link'] == $_GET['link']) {
+          $link = $category['link'];
+          $title = $category['title'];
+        }
+      }
+    }
+    if(empty(trim($link))) {
+      $breadcrumb = ['/'=>'Главная', '/catalog'=>'Каталог продукции'];
+    } else {
+      $breadcrumb = ['/'=>'Главная', '/catalog'=>'Каталог продукции', $link=>$title];
+    }
     include 'components/breadcrumb/breadcrumb.php';
     ?>
     <div class="search-form">
@@ -23,14 +39,41 @@
     </div>
 
     <div class="catalog-form">
-      <?php include 'components/productCart/productCart.php'; ?>
-      <?php include 'components/productCart/productCart.php'; ?>
-      <?php include 'components/productCart/productCart.php'; ?>
-      <?php include 'components/productCart/productCart.php'; ?>
-      <?php include 'components/productCart/productCart.php'; ?>
-      <?php include 'components/productCart/productCart.php'; ?>
-      <?php include 'components/productCart/productCart.php'; ?>
-      <?php include 'components/productCart/productCart.php'; ?>
+      <?php
+
+        foreach ($products as $product) {
+          if(!empty(trim($_GET['link'])) && $product['category'] != $_GET['link']) continue;
+          $image = $product['main_img'];
+          $title = $product['title'];
+          $descriptions = $product['description'];
+          $link = $product['link'];
+          $description = '';
+          foreach($descriptions as $param => $key) {
+            $description .= "$param <b>$key</b><br/>";
+          }
+          include 'components/productCart/productCart.php';
+        }
+
+        if(!empty(trim($_GET['link'])) && $_GET['link'] == 'vp') {
+          echo '
+          <div class="product-cart">
+            <img src="https://static.tildacdn.com/tild6465-6562-4238-a632-313161313636/--FB20H-1.jpg" alt="">
+            <h2>Электрические погрузчики</h2>
+            <p>Список электрических погрузчиков</p>
+            <a href="/catalog/vp-el">Перейти</a>
+          </div>
+          ';
+          echo '
+          <div class="product-cart">
+            <img src="https://static.tildacdn.com/tild3033-6531-4431-b333-353961333832/-3.jpg" alt="">
+            <h2>Дизельные погрузчики</h2>
+            <p>Список дизельные погрузчиков</p>
+            <a href="/catalog/vp-diz">Перейти</a>
+          </div>
+          ';
+        }
+        
+      ?>
     </div>
   </div>
 

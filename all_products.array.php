@@ -573,15 +573,6 @@ $products = [
     ]
   ],
   [
-    'title' => '',
-    'category' => 'teleskopicheskie-pod-jomniki',
-    'link' => 'teleskopicheskie-pod-jomniki/1',
-    'main_img' => '',
-    'images' => [],
-    'params' => [],
-    'description' => []
-  ],
-  [
     'title' => 'ZA14JE',
     'link' => 'kolenchatye-pod-jomniki/za14je',
     'category' => 'kolenchatye-pod-jomniki',
@@ -4654,10 +4645,29 @@ $categories = [
 ];
 $hot = [
   [
-    'title'=>'1122',
-    'link'=>'tete',
-    'image'=>'/images/1.jpg',
-    'description'=>''
+    'title' => 'Электроштабелер DB20R',
+    'category' => 'es',
+    'link' => 'es/DB20R',
+    'main_img' => 'https://static.tildacdn.com/tild3062-6362-4535-a565-653431653966/DB12-20R-1.jpg',
+    'description' => [
+      'Грузоподъемность' => ' - 1 500 кг',
+      'Bыcoтa подъема' => ' - 4000 мм',
+      'Bыcoтa подъема трехсекционной мaчты co cвoбoдным xoдoм' => ' - 6300 мм',
+      'Tип пpивoдa' => ' - Гopизoнтaльный',
+      '' => 'Электромагнитные тормоза',
+    ]
+  ],
+  [
+    'title' => 'ЭКСКАВАТОР ZE1250ESP',
+    'link' => 'ekskavatory/ZE1250ESP',
+    'category' => 'ekskavatory',
+    'main_img' => '/images/catalog/e8_2.jpg',
+    'params' => [
+      '' => '<img src="/images/catalog/e2_h.png">'
+    ],
+    'description' => [
+      '' => 'Силовая установка экскаватора серии ZE1250E оснащена двигателем Cummins Q5K23, системой впрыска топлива под высоким давлением, а также топливными и масляными фильтрами Fleetguard, обладающими большой мощностью и мощным импульсом.'
+    ],
   ]
 ];
 /*
