@@ -62,12 +62,14 @@
 
 .up-pane .description {
   margin-left: 25px;
+  max-width: 50%;
 }
 
 @media (max-width: 900px) {
   .up-pane .description {
     margin-left: 0;
     margin-top: 20px;
+    max-width: 100%;
   }
 }
 
@@ -114,5 +116,13 @@
   background: #eee;
   border-top: 1px solid #d9d9d9;
   border-bottom: 1px solid #d9d9d9;
+}
+
+.params_image {
+  margin-top: 30px;
+}
+
+.params_image img {
+  width: 100%;
 }
 /*# sourceMappingURL=product.css.map */

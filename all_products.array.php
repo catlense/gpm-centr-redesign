@@ -3838,11 +3838,11 @@ $products = [
     'title' => 'АВТОКРАН ZMC-60-1С1',
     'link' => 'avtokrany-maz/avtokran-zmc-60',
     'category' => 'avtokrany-maz',
-    'main_img' => 'https://zoomlion-maz.by/upload/iblock/3f0/3f09a99a61f09241cb2689a60d4edc67.png',
+    'main_img' => 'https://zoomlion-maz.by/upload/iblock/027/0270f53f04d45537e84095500f9ed0fa.JPG',
     'images' => [
-      'https://zoomlion-maz.by/upload/iblock/3f0/3f09a99a61f09241cb2689a60d4edc67.png',
-      'https://zoomlion-maz.by/upload/iblock/fd7/fd7084809696ad301d2dc36cd4f7a8e4.JPG',
       'https://zoomlion-maz.by/upload/iblock/bae/bae5a80b0a516c786e9390867ed32fe2.JPG',
+      'https://zoomlion-maz.by/upload/iblock/e17/e1770102391adbd2b8cbf5c8e1ab32f6.jpg',
+      'https://zoomlion-maz.by/upload/iblock/498/498447cea5879c88456141c01ca40185.jpg',
       'https://zoomlion-maz.by/upload/iblock/e17/e1770102391adbd2b8cbf5c8e1ab32f6.jpg',
       'https://zoomlion-maz.by/upload/iblock/498/498447cea5879c88456141c01ca40185.jpg',
     ],
@@ -4645,30 +4645,27 @@ $categories = [
 ];
 $hot = [
   [
-    'title' => 'Электроштабелер DB20R',
-    'category' => 'es',
-    'link' => 'es/DB20R',
-    'main_img' => 'https://static.tildacdn.com/tild3062-6362-4535-a565-653431653966/DB12-20R-1.jpg',
+    'title' => 'АВТОКРАН ZMC-25-1С',
+    'link' => 'avtokrany-maz/avtokran-zmc-25-1b',
+    'category' => 'avtokrany-maz',
+    'main_img' => 'https://zoomlion-maz.by/upload/iblock/941/941227fedba122f556f69aee6e831cc6.png',
     'description' => [
-      'Грузоподъемность' => ' - 1 500 кг',
-      'Bыcoтa подъема' => ' - 4000 мм',
-      'Bыcoтa подъема трехсекционной мaчты co cвoбoдным xoдoм' => ' - 6300 мм',
-      'Tип пpивoдa' => ' - Гopизoнтaльный',
-      '' => 'Электромагнитные тормоза',
+      'Базовое шасси' => 'МАЗ-6312',
+      'Колесная формула' => '6x4',
+      'Шины' => 'MATADOR',
     ]
   ],
   [
-    'title' => 'ЭКСКАВАТОР ZE1250ESP',
-    'link' => 'ekskavatory/ZE1250ESP',
-    'category' => 'ekskavatory',
-    'main_img' => '/images/catalog/e8_2.jpg',
-    'params' => [
-      '' => '<img src="/images/catalog/e2_h.png">'
-    ],
+    'title' => 'АВТОКРАН ZMC-60-1С1',
+    'link' => 'avtokrany-maz/avtokran-zmc-60',
+    'category' => 'avtokrany-maz',
+    'main_img' => 'https://zoomlion-maz.by/upload/iblock/027/0270f53f04d45537e84095500f9ed0fa.JPG',
     'description' => [
-      '' => 'Силовая установка экскаватора серии ZE1250E оснащена двигателем Cummins Q5K23, системой впрыска топлива под высоким давлением, а также топливными и масляными фильтрами Fleetguard, обладающими большой мощностью и мощным импульсом.'
-    ],
-  ]
+      'Базовое шасси' => 'МАЗ-6516',
+      'Колесная формула' => '8x4',
+      'Шины' => 'Continental',
+    ]
+  ],
 ];
 /*
 ,

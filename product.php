@@ -1,7 +1,22 @@
 <?php
 
+include 'all_products.array.php';
 
+$product = [];
+$link = $_GET['link'];
+$category_link = '';
+$category = '';
 
+foreach($products as $p) {
+  if($p['link'] == $link) $product = $p;
+}
+
+foreach ($categories as $c) {
+  if($product['category'] == $c['link']) {
+    $category = $c['title'];
+    $category_link = '/catalog/'.explode('/', $_SERVER['REQUEST_URI'])[2];
+  }
+}
 ?>
 
 <!DOCTYPE html>
@@ -10,7 +25,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Продукт / ГПМ-Центр</title>
+  <title><?=$product['title'];?> / ГПМ-Центр</title>
 
   <link rel="stylesheet" href="/styles/common.css">
   <link rel="stylesheet" href="/styles/page/product.css">
@@ -19,25 +34,22 @@
   <?php include 'components/header/header.php' ?>
   <div class="page-container">
     <?php
-    $breadcrumb = ['/'=>'Главная', '/es'=>'Экскаваторы', '/product'=>'Экскаватор...'];
+    $breadcrumb = ['/'=>'Главная', $category_link=>$category, ''=>$product['title']];
     include 'components/breadcrumb/breadcrumb.php';
     ?>
-    <h1>Экскаватор...</h1>
+    <h1><?=$product['title'];?></h1>
     <div class="up-pane">
       <div class="swiper-images">
         <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <img src="/images/static/ekskavatory.png" alt="">
-          </div>
-          <div class="swiper-slide">
-            <img src="/images/static/ekskavatory.png" alt="">
-          </div>
-          <div class="swiper-slide">
-            <img src="/images/static/ekskavatory.png" alt="">
-          </div>
-          <div class="swiper-slide">
-            <img src="/images/static/ekskavatory.png" alt="">
-          </div>
+          <?php
+            foreach ($product['images'] as $image) {
+              echo '
+              <div class="swiper-slide">
+                <img src="'.$image.'" alt="">
+              </div>
+              ';
+            }
+          ?>
         </div>
         <div class="swiper-navigation">
           <div class="images-slider-prev">
@@ -50,41 +62,47 @@
       </div>
       <div class="description">
         <div class="short">
-          <p>property - <span>value</span></p>
-          <p>property - <span>value</span></p>
-          <p>property - <span>value</span></p>
-          <p>property - <span>value</span></p>
+          <?php
+          foreach ($product['description'] as $key => $value) {
+            echo "<p>$key <span>$value</span></p>";
+          }
+          ?>
         </div>
         <div class="normal">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque illum tempora voluptate sunt beatae commodi ab consectetur earum nemo? Iure alias beatae architecto porro ipsam a asperiores repellat ex magnam!</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque illum tempora voluptate sunt beatae commodi ab consectetur earum nemo? Iure alias beatae architecto porro ipsam a asperiores repellat ex magnam!</p>
+        <?php
+          foreach ($product['ost_description'] as $desc) {
+            echo "<p>$desc</p>";
+          }
+        ?>
         </div>
       </div>
     </div>
-
+    
+    <?php
+    
+    if(count($product['params']) == 1) {
+      echo "<div class='params_image'>".$product['params']['']."</div>";
+    }
+    
+    ?>
+    <?php if(count($product['params']) > 1): ?>
     <table class="params">
       <tr>
         <td>Параметры машины</td>
-        <td>Экскаватор</td>
+        <td><?=$product['title'];?></td>
       </tr>
-      <tr>
-        <td>property</td>
-        <td>value</td>
-      </tr>
-      <tr>
-        <td>property</td>
-        <td>value</td>
-      </tr>
-      <tr>
-        <td>property</td>
-        <td>value</td>
-      </tr>
-      <tr>
-        <td>property</td>
-        <td>value</td>
-      </tr>
+      <?php
+      foreach($product['params'] as $key => $value) {
+        echo "
+        <tr>
+          <td>$key</td>
+          <td>$value</td>
+        </tr>
+        ";
+      }
+      ?>
     </table>
-
+    <?php endif; ?>
   </div>
 
   <?php include 'components/footer/footer.php' ?>
