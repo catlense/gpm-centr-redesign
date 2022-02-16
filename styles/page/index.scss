@@ -16,6 +16,12 @@
     font-weight: bold;
     left: 30px;
     top: 30px;
+    @media(max-width: 420px) {
+      width: calc(100% - 100px);
+      left: 15px;
+      right: 15px;
+      top: 15px;
+    }
   }
 }
 
@@ -35,6 +41,9 @@
       color: white;
       max-width: 560px;
       text-align: center;
+      @media(max-width: 420px) {
+        font-size: 18px;
+      }
     }
     button {
       padding: 15px 25px;
