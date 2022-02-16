@@ -40,6 +40,11 @@ header .main-line {
   }
 }
 
+header .main-line > a img {
+  max-height: 100%;
+  max-width: 200px;
+}
+
 header .main-line .addresses {
   display: -webkit-box;
   display: -ms-flexbox;

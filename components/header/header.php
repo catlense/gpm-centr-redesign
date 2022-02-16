@@ -4,7 +4,7 @@
 <header>
   <div class="main-line">
     <a href="/">
-      <img src="/images/header/logotype.png" alt="">
+      <img src="/images/header/logo.jpeg" alt="">
     </a>
 
     <div class="addresses">

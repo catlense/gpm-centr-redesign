@@ -18,6 +18,12 @@ header {
       margin: 0 auto;
       justify-content: center;
     }
+    >a {
+      img {
+        max-height: 100%;
+        max-width: 200px;
+      }
+    }
     .addresses {
       display: flex;
       .address-cart {

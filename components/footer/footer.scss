@@ -34,7 +34,7 @@ footer {
     .links {
       display: flex;
       flex-wrap: wrap;
-      max-width: 200px;
+      max-width: 550px;
       justify-content: space-between;
     }
     a {
@@ -49,6 +49,13 @@ footer {
     }
     p:not(.title) {
       font-size: 16px;
+    }
+    .col:not(.s-col) {
+      .links {
+        display: flex;
+        max-width: 320px;
+        flex-direction: column;
+      }
     }
     .s-col {
       a {

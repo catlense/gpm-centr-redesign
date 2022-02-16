@@ -7,17 +7,13 @@
     <div class="col s-col">
       <p class="title">Продукция</p>
       <div class="links">
-        <a href="/test">Тест 1</a>
-        <a href="/test">Тест 1</a>
-        <a href="/test">Тест 1</a>
-        <a href="/test">Тест 1</a>
-        <a href="/test">Тест 1</a>
-        <a href="/test">Тест 1</a>
-        <a href="/test">Тест 1</a>
-        <a href="/test">Тест 1</a>
-        <a href="/test">Тест 1</a>
-        <a href="/test">Тест 1</a>
-        <a href="/test">Тест 1</a>
+        <a href="/catalog/vp">Вилочные погрузчики</a>
+        <a href="/catalog/es">Электроштабелеры</a>
+        <a href="/catalog/palet">Погрузчики для палет</a>
+        <a href="/catalog/nozhnichnye-pod-jomniki">Ножничные подъемники</a>
+        <a href="/catalog/kolenchatye-pod-jomniki">Коленчатые подъемники</a>
+        <a href="/catalog/teleskopicheskie-pod-jomniki">Телескопические подъемники</a>
+        <a href="/catalog/ekskavatory">Экскаваторы</a>
       </div>
     </div>
     <div class="col">
