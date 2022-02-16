@@ -10,6 +10,13 @@ document.querySelector('.backcall-close').onclick = () => {
   document.querySelector('.backcall-popup').classList.remove('active')
 }
 
+document.querySelectorAll('.navigation ul li').forEach(e => e.onclick = () => {
+  if(navbar.classList.contains('active')) {
+    navbar.classList.remove('active')
+    navmenu.innerText = 'Навигация'
+  } 
+})
+
 navmenu.onclick = () => {
   navbar.classList.toggle('active') ? navmenu.innerText = 'Закрыть' : navmenu.innerText = 'Навигация'
 }

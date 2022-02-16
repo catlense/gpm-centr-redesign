@@ -1,3 +1,8 @@
+<?php
+ini_set('error_reporting', E_ALL);
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+?>
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -133,8 +138,9 @@
       </div>
     </div>
   </div>
+      </div>
 
-  <div class="fifth-block" id="lizing">
+  <!-- <div class="fifth-block" id="lizing">
     <h1>Лизинговые программы</h1>
     <div class="carts">
 
@@ -170,7 +176,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
   <div class="fourth-block" id="cert">
     <div class="hot-slider cert-slider">
