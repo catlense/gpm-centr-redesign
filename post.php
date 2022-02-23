@@ -17,7 +17,7 @@ foreach($news as $n) {
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title><?=$n['title'];?> / ГПМ-Центр</title>
+  <title><?=$post['title'];?> / ГПМ-Центр</title>
 
   <link rel="stylesheet" href="/styles/common.css">
   <link rel="stylesheet" href="/styles/page/post.css">
@@ -26,18 +26,18 @@ foreach($news as $n) {
   <?php include 'components/header/header.php' ?>
   <div class="page-container">
     <?php
-    $breadcrumb = ['/'=>'Главная', '/news'=>'Новости', $_SERVER['REQUEST_URI']=>$n['title']];
+    $breadcrumb = ['/'=>'Главная', '/news'=>'Новости', $_SERVER['REQUEST_URI']=>$post['title']];
     include 'components/breadcrumb/breadcrumb.php';
     ?>
 
-    <div class="preview" style="background: url(<?=$n['main_img'];?>)">
-      <h1><?=$n['title'];?></h1>
-      <p><?=$n['description'];?></p>
+    <div class="preview" style="background: url(<?=$post['main_img'];?>)">
+      <h1><?=$post['title'];?></h1>
+      <p><?=$post['description'];?></p>
     </div>
 
-    <h1><?=$n['title'];?></h1>
-    <p class="date"><?=$n['date'];?></p>
-    <?=$n['body']; ?>
+    <h1><?=$post['title'];?></h1>
+    <p class="date"><?=$post['date'];?></p>
+    <?=$post['body']; ?>
   </div>
 
   <?php include 'components/footer/footer.php' ?>

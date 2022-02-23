@@ -130,11 +130,11 @@ ini_set('display_startup_errors', 1);
           $n_title = $post['title'];
           $n_description = $post['description'];
           $n_link = $post['link'];
-          echo '<div class="swiper-slide">';
-          include 'components/newsCart/newsCart.php';
-          '</div>';
-        }
-        ?>    
+        ?>
+        <div class="swiper-slide">
+          <?php include 'components/newsCart/newsCart.php'; ?>
+        </div>
+        <?php } ?>
       </div>
     </div>
   </div>
