@@ -114,7 +114,7 @@ ini_set('display_startup_errors', 1);
         Коленчатые подъёмники
       </div>
       <div class="cart" href="nozhnichnye-pod-jomnik" style="background: url(/images/static/nozhnichnie-podjomniki.png) #fff">
-        Вилочные погрузчики
+        Ножничные подъемники
       </div>
     </div>
   </div>
@@ -236,6 +236,15 @@ ini_set('display_startup_errors', 1);
         </div>
       </div>
       <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="/images/news/8/m1.png" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img src="/images/certificates/5.png" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img src="/images/certificates/6.png" alt="">
+        </div>
         <div class="swiper-slide">
           <img src="/images/certificates/1.png" alt="">
         </div>
