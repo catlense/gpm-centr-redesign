@@ -70,8 +70,10 @@ foreach ($categories as $c) {
         </div>
         <div class="normal">
         <?php
-          foreach ($product['ost_description'] as $desc) {
-            echo "<p>$desc</p>";
+          if($product['ost_description']) {
+            foreach ($product['ost_description'] as $desc) {
+              echo "<p>$desc</p>";
+            }
           }
         ?>
         </div>

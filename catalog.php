@@ -72,6 +72,25 @@
           </div>
           ';
         }
+
+        if(!empty(trim($_GET['link'])) && $_GET['link'] == 'vp-el') {
+          echo '
+          <div class="product-cart">
+            <img src="http://www.forklift.ru/UPLOAD/2013/10/07/elektropogruzchik-fe16.jpg" alt="">
+            <h2>Трёхколёсные электрические погрузчики</h2>
+            <p>Список 3-х колёсных электрических погрузчиков</p>
+            <a href="/catalog/vp-el-3">Перейти</a>
+          </div>
+          ';
+          echo '
+          <div class="product-cart">
+            <img src="https://www.liftnet.ru/app/uploads/2021/01/tcm_fb-ix_catalog_05-scaled.jpg" alt="">
+            <h2>Четырёхколёсные электрические погрузчики</h2>
+            <p>Список 4-х колёсных электрических погрузчиков</p>
+            <a href="/catalog/vp-el-4">Перейти</a>
+          </div>
+          ';
+        }
         
       ?>
     </div>

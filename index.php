@@ -21,7 +21,7 @@ ini_set('display_startup_errors', 1);
     <a href="#hot">Горячие предложения</a>
     <div class="main-slider">
       <div class="swiper-wrapper">
-        <div class="swiper-slide" style="background: url(/images/slider/1.png)">
+        <div class="swiper-slide" style="background: url(/images/slider/1.jpg)">
           <h1>ООО "ГПМ-Центр" - официальный дилер Zoomlion Heavy Industry Science & Technology Co., Ltd.</h1>
           <a href="#about"><button>О компании</button></a>
         </div>
@@ -70,7 +70,7 @@ ini_set('display_startup_errors', 1);
           Экскаваторы Zoomlion 2022 года выпуска в наличии на складе в Москве, Санкт-Петербурге и Забайкальске, по самым интересным ценам.
           </h1>
         </div>
-        <div class="swiper-slide" style="background: url(/images/slide/6.jpg) no-repeat;">
+        <div class="swiper-slide" style="background: url(/images/slider/6.jpg) no-repeat;">
           <h1>Экскаваторы Zoomlion 2021 года - со склада, по самым интересным ценам.</h1>
         </div>
       </div>
@@ -113,13 +113,13 @@ ini_set('display_startup_errors', 1);
       <div class="cart" href="kolenchatye-pod-jomniki" style="background: url(/images/static/kolenchetie-podjomniki.png) #fff">
         Коленчатые подъёмники
       </div>
-      <div class="cart" href="nozhnichnye-pod-jomnik" style="background: url(/images/static/nozhnichnie-podjomniki.png) #fff">
+      <div class="cart" href="nozhnichnye-pod-jomniki" style="background: url(/images/static/nozhnichnie-podjomniki.png) #fff">
         Ножничные подъемники
       </div>
     </div>
   </div>
 
-  <div class="fourth-block" id="hot">
+  <!--<div class="fourth-block" id="hot">
     <div class="hot-slider">
       <div class="slider-navigation">
         <h1>Горячие предложения</h1>
@@ -150,7 +150,7 @@ ini_set('display_startup_errors', 1);
         ?>   
       </div>
     </div>
-  </div>
+  </div>-->
 
   <div class="fourth-block" id="news">
     <div class="hot-slider">

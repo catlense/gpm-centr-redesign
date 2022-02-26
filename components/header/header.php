@@ -69,7 +69,7 @@
         </ul>
       </li>
       <li><a href="/news">Новости</a></li>
-    <li><a href="/#lizing">Лизинговые программы</a></li>
+    <li><a href="/#cert">Сертификаты</a></li>
     <li><a href="/contacts">Контакты</a></li>
     <li class="navmenu">Навигация</li>
   </ul>
