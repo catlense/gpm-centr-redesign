@@ -64,7 +64,11 @@ foreach ($categories as $c) {
         <div class="short">
           <?php
           foreach ($product['description'] as $key => $value) {
-            echo "<p>$key <span>$value</span></p>";
+            if(empty($key)) {
+              echo "<p><span>$value</span></p>";
+            } else {
+              echo "<p>$key <span>$value</span></p>";
+            }
           }
           ?>
         </div>

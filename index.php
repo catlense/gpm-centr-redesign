@@ -116,8 +116,32 @@ ini_set('display_startup_errors', 1);
       <div class="cart" href="nozhnichnye-pod-jomniki" style="background: url(/images/static/nozhnichnie-podjomniki.png) #fff">
         Ножничные подъемники
       </div>
+      <div class="cart" href="es" style="background: url(/images/static/es.png) #fff">
+        Электроштабелёры
+      </div>
+      <div class="cart" href="pzus" style="background: url(/images/static/pzus.png) #fff">
+        Подъемник-загрузчик узкопроходимый штабелер
+      </div>
+      <div class="cart" href="richtrak" style="background: url(/images/static/richtrak.png) #fff">
+        Ричтраки
+      </div>
+      <div class="cart" href="epp" style="background: url(/images/static/epp.png) #fff">
+        Электрический погрузчик для поддонов
+      </div>
+      <div class="cart" href="ebt" style="background: url(/images/static/ebt.png) #fff">
+        Электрический буксирный тягач
+      </div>
     </div>
   </div>
+
+  <!-- 
+
+  Электроштабелёры
+  Подъемник-загрузчик узкопроходимый штабелер
+  Ричтрак
+  Электрический погрузчик для поддонов
+  Электрический буксирный тягач
+   -->
 
   <!--<div class="fourth-block" id="hot">
     <div class="hot-slider">

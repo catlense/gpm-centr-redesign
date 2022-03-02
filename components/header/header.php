@@ -66,6 +66,11 @@
           </ul>
         </li>
         <li><a href="/catalog/ekskavatory">Экскаваторы</a></li>
+        <li><a href="/catalog/es">Электроштабелёры</a></li>
+        <li><a href="/catalog/pzus">Узкопроходимый штабелер</a></li>
+        <li><a href="/catalog/richtrak">Ричтраки</a></li>
+        <li><a href="/catalog/epp">Погрузчик для поддонов</a></li>
+        <li><a href="/catalog/ebt">Буксирный тягач</a></li>
         </ul>
       </li>
       <li><a href="/news">Новости</a></li>

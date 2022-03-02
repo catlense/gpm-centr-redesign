@@ -49,7 +49,11 @@
           $link = $product['link'];
           $description = '';
           foreach($descriptions as $param => $key) {
-            $description .= "$param <b>$key</b><br/>";
+            if(empty($param)) {
+              $description .= "<b>$key</b><br/>";
+            } else {
+              $description .= "$param <b>$key</b><br/>";
+            }
           }
           include 'components/productCart/productCart.php';
         }
