@@ -61,18 +61,18 @@
         if(!empty(trim($_GET['link'])) && $_GET['link'] == 'vp') {
           echo '
           <div class="product-cart">
-            <img src="https://static.tildacdn.com/tild6465-6562-4238-a632-313161313636/--FB20H-1.jpg" alt="">
-            <h2>Электрические погрузчики</h2>
-            <p>Список электрических погрузчиков</p>
-            <a href="/catalog/vp-el">Перейти</a>
-          </div>
-          ';
-          echo '
-          <div class="product-cart">
             <img src="https://static.tildacdn.com/tild3033-6531-4431-b333-353961333832/-3.jpg" alt="">
             <h2>Дизельные погрузчики</h2>
             <p>Список дизельные погрузчиков</p>
             <a href="/catalog/vp-diz">Перейти</a>
+          </div>
+          ';
+          echo '
+          <div class="product-cart">
+            <img src="https://static.tildacdn.com/tild6465-6562-4238-a632-313161313636/--FB20H-1.jpg" alt="">
+            <h2>Электрические погрузчики</h2>
+            <p>Список электрических погрузчиков</p>
+            <a href="/catalog/vp-el">Перейти</a>
           </div>
           ';
         }
@@ -80,7 +80,7 @@
         if(!empty(trim($_GET['link'])) && $_GET['link'] == 'vp-el') {
           echo '
           <div class="product-cart">
-            <img src="http://www.forklift.ru/UPLOAD/2013/10/07/elektropogruzchik-fe16.jpg" alt="">
+            <img src="https://exkavator.ru/_modules/_ccatalogue/vehicles/38730small.jpg" alt="">
             <h2>Трёхколёсные электрические погрузчики</h2>
             <p>Список 3-х колёсных электрических погрузчиков</p>
             <a href="/catalog/vp-el-3">Перейти</a>
@@ -88,7 +88,7 @@
           ';
           echo '
           <div class="product-cart">
-            <img src="https://www.liftnet.ru/app/uploads/2021/01/tcm_fb-ix_catalog_05-scaled.jpg" alt="">
+            <img src="https://static.tildacdn.com/tild3062-3638-4634-a631-623566333764/f_468615c051852cd3-1.jpg" alt="">
             <h2>Четырёхколёсные электрические погрузчики</h2>
             <p>Список 4-х колёсных электрических погрузчиков</p>
             <a href="/catalog/vp-el-4">Перейти</a>
