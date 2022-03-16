@@ -18,7 +18,7 @@ ini_set('display_startup_errors', 1);
   <?php include 'components/header/header.php' ?>
   
   <div class="first-block">
-    <a href="#hot">Горячие предложения</a>
+    <!-- <a href="#hot">Горячие предложения</a> -->
     <div class="main-slider">
       <div class="swiper-wrapper">
         <div class="swiper-slide" style="background: url(/images/slider/1.jpg)">
@@ -69,9 +69,6 @@ ini_set('display_startup_errors', 1);
           <h1>
           Экскаваторы Zoomlion 2022 года выпуска в наличии на складе в Москве, Санкт-Петербурге и Забайкальске, по самым интересным ценам.
           </h1>
-        </div>
-        <div class="swiper-slide" style="background: url(/images/slider/6.jpg) no-repeat;">
-          <h1>Экскаваторы Zoomlion 2021 года - со склада, по самым интересным ценам.</h1>
         </div>
       </div>
       <div class="swiper-navigation">
