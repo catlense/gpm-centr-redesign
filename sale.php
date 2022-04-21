@@ -57,7 +57,7 @@
             <img src="/images/sale/1.png" alt="">
           </div>
           <div class="texts">
-            <h1>Дизельный погрузчик  Zoomlion FD 18Z-Y</h1>
+            <h1>Дизельный погрузчик  Zoomlion FD18Z-Y</h1>
             <p>Грузоподъемность: 1800 кг</p>
             <p>Высота подъема: 3000мм</p>
             <p>Двигатель: Xinchai NC485</p>
