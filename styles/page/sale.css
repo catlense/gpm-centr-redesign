@@ -32,6 +32,8 @@
 .saleContainer .sec-block .text {
   width: 60%;
   line-height: 1.67;
+  font-weight: bold;
+  font-size: 18px;
 }
 
 @media (max-width: 630px) {
@@ -57,6 +59,7 @@
   background: #ff3f3f;
   color: white;
   font-weight: bold;
+  cursor: pointer;
 }
 
 @media (max-width: 630px) {
@@ -159,5 +162,16 @@
   .saleContainer .thi-block .line .landing-card .image {
     margin-right: 0;
   }
+}
+
+a.number {
+  color: red;
+  text-decoration: none;
+  font-size: 42px;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: block;
+  font-weight: bold;
 }
 /*# sourceMappingURL=sale.css.map */

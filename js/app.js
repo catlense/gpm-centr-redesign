@@ -27,12 +27,13 @@ document.querySelector('.sendBackcall').onclick = (e) => {
   let name = document.querySelector('form #name')
   let phone = document.querySelector('form #phone')
   let mail = document.querySelector('form #mail')
-  let quest = document.querySelector('form #quest')
+  // let quest = document.querySelector('form #quest')
   if (phone.value == '') return
   if (name.value == '') name.value = '-'
-  if (quest.value == '') quest.value = '-'
+  // if (quest.value == '') quest.value = '-'
   if (mail.value == '') mail.value = '-'
-  fetch(`/tg.php?name=${name.value}&phone=${phone.value}&mail=${mail.value}&quest=${quest.value}`)
+  // fetch(`/tg.php?name=${name.value}&phone=${phone.value}&mail=${mail.value}&quest=${quest.value}`)
+  fetch(`/tg.php?name=${name.value}&phone=${phone.value}&mail=${mail.value}`)
   document.querySelector('.status').innerText = 'Звонок заказан, мы Вам скоро перезвоним'
   return false
 }

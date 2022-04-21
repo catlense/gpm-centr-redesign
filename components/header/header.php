@@ -40,7 +40,7 @@
     <li>
       <a href="/#catalog">Каталог продукции</a>
       <ul>
-        <li class="sale"><a href="/sale">Акция</a></li>
+        <li class="sale"><a href="/sale">Спецпредложение</a></li>
         <li class="multiply">
           <a href="">Подъёмники</a>
           <ul>
@@ -89,7 +89,7 @@
       <input type="text" name="name" id="name" placeholder="Ваше имя">
       <input type="tel" name="phone" id="phone" placeholder="Ваш телефон *">
       <input type="email" name="mail" id="mail" placeholder="Ваша почта">
-      <input type="text" name="quest" id="quest" placeholder="Ваш вопрос *">
+      <!-- <input type="text" name="quest" id="quest" placeholder="Ваш вопрос *"> -->
       <button class="sendBackcall">Отправить</button>
       <div class="status"></div>
     </form>

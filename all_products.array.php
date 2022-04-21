@@ -49,9 +49,9 @@ $products = [
     'title' => 'Дизельный погрузчик FD18',
     'link' => 'vp-diz/FD18',
     'category' => 'vp-diz',
-    'main_img' => 'https://static.tildacdn.com/tild3031-6536-4431-b533-633664316538/FD15Z18Z-1.jpg',
+    'main_img' => '/images/sale/1.png',
     'images' => [
-      'https://static.tildacdn.com/tild3031-6536-4431-b533-633664316538/FD15Z18Z-1.jpg'
+      '/images/sale/1.png'
     ],
     'params' => [
       'Силовая установка' => 'Дизельный двигатель',
@@ -148,9 +148,9 @@ $products = [
     'title' => 'ДИЗЕЛЬНЫЙ ВИЛОЧНЫЙ ПОГРУЗЧИК FD25 ',
     'category' => 'vp-diz',
     'link' => 'vp-diz/FD25',
-    'main_img' => 'https://www.techno-china.ru/assets/images/sklad/image-07-10-19-11-42.jpeg',
+    'main_img' => '/images/sale/2.png',
     'images' => [
-      'https://www.techno-china.ru/assets/images/sklad/image-07-10-19-11-42-1.jpeg',
+      '/images/sale/2.png',
       'https://www.techno-china.ru/assets/images/sklad/image-07-10-19-11-42-3.jpeg',
       'https://www.techno-china.ru/assets/images/sklad/image-07-10-19-11-42.jpeg'
     ],
@@ -192,9 +192,9 @@ $products = [
     'title' => 'ДИЗЕЛЬНЫЙ ВИЛОЧНЫЙ ПОГРУЗЧИК FD30 ',
     'category' => 'vp-diz',
     'link' => 'vp-diz/FD30',
-    'main_img' => 'https://exkavator.ru/trade/images/size/0x0/lots/2020/06/30/5cd77e1a15d55a8b16d30db930fa7b7f.jpeg?__t=1647453529',
+    'main_img' => '/images/sale/3.png',
     'images' => [
-      'https://www.techno-china.ru/assets/images/sklad/image-07-10-19-11-42-1.jpeg',
+      '/images/sale/3.png',
       'https://www.techno-china.ru/assets/images/sklad/image-07-10-19-11-42-3.jpeg',
       'https://www.techno-china.ru/assets/images/sklad/image-07-10-19-11-42.jpeg'
     ],
@@ -236,8 +236,9 @@ $products = [
     'title' => 'ДИЗЕЛЬНЫЙ ВИЛОЧНЫЙ ПОГРУЗЧИК FD35 ',
     'category' => 'vp-diz',
     'link' => 'vp-diz/FD35',
-    'main_img' => 'https://exkavator.ru/trade/images/size/0x0/lots/2020/07/02/efcb713ff29dc4acf6eb442ee1244193.jpeg?__t=1647453564',
+    'main_img' => '/images/sale/4.png',
     'images' => [
+      '/images/sale/4.png',
       'https://www.techno-china.ru/assets/images/sklad/image-07-10-19-11-42-1.jpeg',
       'https://www.techno-china.ru/assets/images/sklad/image-07-10-19-11-42-3.jpeg',
       'https://exkavator.ru/trade/images/size/0x0/lots/2020/07/02/efcb713ff29dc4acf6eb442ee1244193.jpeg?__t=1647453564'
@@ -2698,9 +2699,9 @@ $products = [
     'title' => 'ЭКСКАВАТОР ZE215E',
     'link' => 'ekskavatory/ZE215E',
     'category' => 'ekskavatory',
-    'main_img' => '/images/catalog/e3.jpg',
+    'main_img' => '/images/sale/5.png',
     'images' => [
-      '/images/catalog/e3.jpg'
+      '/images/sale/5.png'
     ],
     'params' => [
       '' => '<img src="/images/catalog/e3_h.png">'
