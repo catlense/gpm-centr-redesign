@@ -135,7 +135,7 @@
             <p>Мощность: 152 л.с.</p>
             <p>Габариты: ДхШхВ 9555х2800х3085мм</p>
             <p>Макс. глубина копания: 6610мм</p>
-            <a href="/product/vp-diz/FD35">Подробнее</a>
+            <a href="/product/ekskavatory/ZE215E">Подробнее</a>
           </div>
         </div>
         <div class="landing-card">
@@ -149,12 +149,13 @@
             <p>Макс. высота подъема с гуськом: 74м</p>
             <p>Полная масса крана в транспортном положении: 50000 кг</p>
             <p>Габаритные размеры д×ш×в: 15000×2850×3820мм</p>
-            <a href="/product/vp-diz/FD35">Подробнее</a>
           </div>
         </div>
       </div>
     </div>
   </div>
+
+  <?php include('components/footer/footer.php'); ?>
 
   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
   <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
