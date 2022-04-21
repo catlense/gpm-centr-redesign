@@ -10,9 +10,15 @@
     width: calc(100% - 30px);
     justify-content: space-between;
     align-items: center;
+    @media(max-width: 630px) {
+      flex-direction: column;
+    }
     .text {
       width: 60%;
       line-height: 1.67;
+      @media(max-width: 630px) {
+        width: 100%;
+      }
     }
     .backcall {
       width: 30%;
@@ -25,6 +31,10 @@
       background: rgb(255, 63, 63);
       color: white;
       font-weight: bold;
+      @media(max-width: 630px) {
+        width: 100%;
+        margin-top: 20px;
+      }
     }
   }
   .thi-block {
@@ -37,25 +47,57 @@
       margin-bottom: 30px;
       margin-top: 30px;
       justify-content: space-between;
+      @media(max-width: 1180px) {
+        flex-direction: column;
+        margin: 0;
+      }
       .landing-card {
-        width: 45%;
+        max-width: 530px;
+        width: 100%;
         border: 1px solid #eee;
         border-radius: 15px;
+        display: flex;
         padding: 15px;
+        align-items: center;
+        @media(max-width: 1180px) {
+          margin-top: 30px;
+          max-width: none;
+          width: calc(100% - 30px)
+        }
+        @media(max-width: 630px) {
+          flex-direction: column;
+        }
         .texts {
           h1 {
-            font-size: 18px;
+            font-size: 16px;
+            margin: 0;
+            padding: 0;
+            margin-bottom: 9px;
           }
           p {
-            font-size: 16px;
+            font-size: 14px;
+            margin: 0;
+            padding: 0;
+          }
+          a {
+            font-weight: 500;
+            color: #83DE1E;
+            text-decoration: none;
+            display: block;
+            margin-top: 9px;
+            font-size: 14px;
+            &:hover {
+              text-decoration: underline;
+            }
           }
         }
         .image {
-          margin: 0 auto;
-          display: flex;
-          justify-content: center;
+          margin-right: 10px;
+          @media(max-width: 630px) {
+            margin-right: 0;
+          }
           img {
-            height: 250px;
+            // height: 250px;
           }
         }
       }
