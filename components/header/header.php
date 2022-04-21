@@ -40,6 +40,7 @@
     <li>
       <a href="/#catalog">Каталог продукции</a>
       <ul>
+        <li class="sale"><a href="/sale">Акция</a></li>
         <li class="multiply">
           <a href="">Подъёмники</a>
           <ul>

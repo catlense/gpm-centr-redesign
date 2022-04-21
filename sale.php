@@ -7,62 +7,28 @@
   <title>Акция!</title>
 
   <link rel="stylesheet" href="/styles/common.css">
+  <link rel="stylesheet" href="/styles/page/sale.css">
   <link rel="stylesheet" href="/styles/page/index.css">
 </head>
 <body>
   <?php include 'components/header/header.php' ?>
   <div class="first-block">
-    <!-- <a href="#hot">Горячие предложения</a> -->
     <div class="main-slider">
       <div class="swiper-wrapper">
-        <div class="swiper-slide" style="background: url(/images/slider/1.jpg)">
-          <h1>ООО "ГПМ-Центр" - официальный дилер Zoomlion Heavy Industry Science & Technology Co., Ltd.</h1>
-          <a href="#about"><button>О компании</button></a>
+        <div class="swiper-slide" style="background: url(/images/sale/slider/1.png)">
+          <h1>Финальная распродажа дизельных погрузчики 2021 года выпуска по спеццене!</h1>
         </div>
-        <div class="swiper-slide" style="background: url(/images/slider/2.webp)">
-          <h1>Zoomlion heavy industry производит впечатление производимым ассортиментом спецтехники, это краны всех типов, землеройная техника - Экскаваторы и бульдозеры, буровая техника, дорожностроительная техника, бетонное оборудование всех типов, а так же все типы вилочных погрузчиков, штабелёров, ричтраков, погрузчиков для поддонов, буксировочных тягачей.</h1>
-          <a href="#about"><button>О компании</button></a>
+        <div class="swiper-slide" style="background: url(/images/sale/slider/2.jpg)">
+          <h1>Вилочные погрузчики в наличии на складе в Москве по лучшим ценам!</h1>
         </div>
-        <div class="swiper-slide" style="background: url(/images/slider/5.png)">
-          <h1>Zoomlion занесен в книгу рекордов Гиннесса как производитель:</h1>
-          <ul>
-            <li>
-              самого большого в мире гусеничного крана грузоподъёмностью 3200 тонн.
-            </li>
-            <li>
-              самого большого автомобильного крана грузоподъемностью 2500 тонн.
-            </li>
-            <li>
-              самого большого башенного крана грузоподъемностью 240 тонн.
-            </li>
-            <li>
-              самого большого башенного крана по длине стрелы 100 метров.
-            </li>
-            <li>
-              самого большого автомобильного бетононасоса с высотой подачи стрелы 101 метр.
-            </li>
-            <li>
-              самого большого в мире стационарного бетононасоса с максимальным давлением 400 бар.
-            </li>
-          </ul>
+        <div class="swiper-slide" style="background: url(/images/sale/slider/3.jpg)">
+          <h1>Расширенная гарантия на машины 2021 года выпуска!</h1>
         </div>
-        <div class="swiper-slide" style="background: url(https://www.gama.com.tr/wp-content/themes/welcome/assets/img/bg/trading.jpg) no-repeat;">
-          <h1> Благодаря высокому опыту сотрудников ГПМ-Центр, Вы получите грамотную техническую поддержку 7 дней в неделю.
-                        Вы можете быть уверены в надежности компании и выполнении всех гарантийных обязательств.</h1>
+        <div class="swiper-slide" style="background: url(/images/sale/slider/4.jpeg);">
+          <h1>Собственная сервисная служба, доставки и склад запчастей</h1>
         </div>
-        <div class="swiper-slide" style="background: url(https://sc02.alicdn.com/kf/H3fa6b2509578415ca78a4d3e1ac8df3aO/237371530/H3fa6b2509578415ca78a4d3e1ac8df3aO.jpg) no-repeat;">
-          <h1>Zoomlion производит технику по технологии немецкой компании JOST и LIEBHERR (Germany), а это значит, что Вы приобретаете краны европейского качества по доступным ценам и сможете эксплуатировать технику долгий срок, сэкономив на сервисе и комплектующих.</h1>
-        </div>
-        <div class="swiper-slide" style="background: url(https://1.bp.blogspot.com/-wwYnVxqJEIQ/VvJACi7tz7I/AAAAAAAAFL4/ljyVbwnLKFYdVE9WoI80s2k1lmjdzp8zw/s1600/Miya%2BForklift%2Bstock.JPG) no-repeat;">
-          <h1>
-            На вилочные погрузчики Zoomlion предоставляется расширенная гарантия:<br/>
-            18 месяцев или 3 000 моточасов.
-          </h1>
-        </div>
-        <div class="swiper-slide" style="background: url(https://stnews.ru/uploads/posts/2019-04/15547248121353660.jpg) no-repeat;">
-          <h1>
-          Экскаваторы Zoomlion 2022 года выпуска в наличии на складе в Москве, Санкт-Петербурге и Забайкальске, по самым интересным ценам.
-          </h1>
+        <div class="swiper-slide" style="background: url(/images/sale/slider/5.jpg);">
+          <h1>ГПМ-Центр - Официальный дилер крупнейшего производителя спецтехники Zoomlion</h1>
         </div>
       </div>
       <div class="swiper-navigation">
@@ -71,6 +37,81 @@
         </div>
         <div class="main-slider-next">
           <img src="/images/right-arrow.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="saleContainer">
+    <div class="sec-block">
+      <div class="text">Финальная распродажа спецтехники 2021 года выпуска по самой выгодной цене! Все машины в наличии. Подробности по телефону. Ждём Ваших звонков.</div>
+      <div class="backcall">
+        Заказать звонок
+      </div>
+    </div>
+    <div class="thi-block">
+      <div class="line">
+        <div class="landing-card">
+          <div class="image">
+            <img src="/images/sale/1.png" alt="">
+          </div>
+          <div class="texts">
+            <h1>Дизельный погрузчик  Zoomlion FD 18Z-Y</h1>
+            <p>Грузоподъемность: 1800 кг</p>
+            <p>Высота подъема: 3000мм</p>
+            <p>Двигатель: Xinchai NC485</p>
+            <p>Мощность 41 л.с</p>
+            <p>Мачта вагонного типа (Свободный ход)</p>
+            <p>Боковое смещение каретки (Сайд-шифт)</p>
+            <p>Габариты ДхШхВ 3170х1086х1990мм</p>
+            <p>Размер вил: 1070х120х40мм</p>
+            <a href="/product/vp-diz/FD18">Подробнее</a>
+          </div>
+        </div>
+        <div class="landing-card">
+          <div class="image">
+            <img src="/images/sale/2.png" alt="">
+          </div>
+          <div class="texts">
+            <h1>Дизельный погрузчик  Zoomlion FD 18Z-Y</h1>
+            <p>Грузоподъемность: 1800 кг</p>
+            <p>Высота подъема: 3000мм</p>
+            <p>Двигатель: Xinchai NC485</p>
+            <p>Мощность 41 л.с</p>
+            <p>Мачта вагонного типа (Свободный ход)</p>
+            <p>Боковое смещение каретки (Сайд-шифт)</p>
+            <p>Габариты ДхШхВ 3170х1086х1990мм</p>
+            <p>Размер вил: 1070х120х40мм</p>
+            <a href="/product/vp-diz/FD18">Подробнее</a>
+          </div>
+        </div>
+      </div>
+      <div class="line">
+        <div class="landing-card">
+          <div class="image">
+            <img src="/images/sale/3.png" alt="">
+          </div>
+          <div class="texts"></div>
+        </div>
+        <div class="landing-card">
+          <div class="image">
+            <img src="/images/sale/4.png" alt="">
+          </div>
+          <div class="texts"></div>
+        </div>
+      </div>
+      <div class="line">
+        <div class="landing-card">
+          <div class="image">
+            <img src="/images/sale/5.png" alt="">
+          </div>
+          <div class="texts"></div>
+        </div>
+        <div class="landing-card">
+          <div class="image">
+            <img src="/images/sale/6.png" alt="">
+          </div>
+          <div class="texts"></div>
         </div>
       </div>
     </div>

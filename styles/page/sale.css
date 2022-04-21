@@ -1,0 +1,93 @@
+.saleContainer {
+  margin-top: 30px;
+}
+
+.saleContainer .sec-block {
+  margin-top: 30px;
+  max-width: 1140px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: calc(100% - 30px);
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.saleContainer .sec-block .text {
+  width: 60%;
+  line-height: 1.67;
+}
+
+.saleContainer .sec-block .backcall {
+  width: 30%;
+  height: 60px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 10px;
+  background: #ff3f3f;
+  color: white;
+  font-weight: bold;
+}
+
+.saleContainer .thi-block {
+  margin: 0 auto;
+  max-width: 1140px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.saleContainer .thi-block .line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.saleContainer .thi-block .line .landing-card {
+  width: 45%;
+  border: 1px solid #eee;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+.saleContainer .thi-block .line .landing-card .texts h1 {
+  font-size: 18px;
+}
+
+.saleContainer .thi-block .line .landing-card .texts p {
+  font-size: 16px;
+}
+
+.saleContainer .thi-block .line .landing-card .image {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.saleContainer .thi-block .line .landing-card .image img {
+  height: 250px;
+}
+/*# sourceMappingURL=sale.css.map */

@@ -1,10 +1,11 @@
-const backcall = document.querySelector('.backcall')
+const backcall = document.querySelectorAll('.backcall')
 const navmenu = document.querySelector('.navmenu')
 const navbar = document.querySelector('.navigation')
 
-backcall.onclick = () => {
+backcall.forEach(e => e.onclick = () => {
   document.querySelector('.backcall-popup').classList.toggle('active')
-}
+  document.querySelector('.backcall-popup').style.top = `${window.scrollY}px`
+})
 
 document.querySelector('.backcall-close').onclick = () => {
   document.querySelector('.backcall-popup').classList.remove('active')

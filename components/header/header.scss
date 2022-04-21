@@ -94,6 +94,12 @@ header {
   background-color: $commonColor;
   transition: height.3s;
   z-index: 99999;
+  .sale {
+    background: rgb(255, 85, 85);
+    &:hover {
+      background: rgb(238, 67, 67);
+    }
+  }
   &.active {
     height: 100vh;
     display: flex;
