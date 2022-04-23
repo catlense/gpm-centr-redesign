@@ -258,25 +258,28 @@ ini_set('display_startup_errors', 1);
       </div>
       <div class="swiper-wrapper">
         <div class="swiper-slide">
-          <img src="/images/news/8/m1.png" alt="">
+          <img src="/images/certificates/zoomlion.jpg" onclick="window.open('/images/certificates/zoomlion.jpg')" alt="">
         </div>
         <div class="swiper-slide">
-          <img src="/images/certificates/5.png" alt="">
+          <img src="/images/news/8/m1.png" onclick="window.open('/images/news/8/m1.png')" alt="">
         </div>
         <div class="swiper-slide">
-          <img src="/images/certificates/6.png" alt="">
+          <img src="/images/certificates/5.png" onclick="window.open('/images/certificates/5.png')" alt="">
         </div>
         <div class="swiper-slide">
-          <img src="/images/certificates/1.png" alt="">
+          <img src="/images/certificates/6.png" onclick="window.open('/images/certificates/6.png')" alt="">
         </div>
         <div class="swiper-slide">
-          <img src="/images/certificates/2.png" alt="">
+          <img src="/images/certificates/1.png" onclick="window.open('/images/certificates/1.png')" alt="">
         </div>
         <div class="swiper-slide">
-          <img src="/images/certificates/3.png" alt="">
+          <img src="/images/certificates/2.png" onclick="window.open('/images/certificates/2.png')" alt="">
         </div>
         <div class="swiper-slide">
-          <img src="/images/certificates/4.png" alt="">
+          <img src="/images/certificates/3.png" onclick="window.open('/images/certificates/3.png')" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img src="/images/certificates/4.png" onclick="window.open('/images/certificates/4.png')" alt="">
         </div>
       </div>
     </div>
