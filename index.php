@@ -126,7 +126,7 @@ ini_set('display_startup_errors', 1);
         Электрический погрузчик для поддонов
       </div>
       <div class="cart" href="ebt" style="background: url(/images/static/ebt.png) #fff">
-        Электрический буксирный тягач
+        Электрический буксировочный тягач
       </div>
     </div>
   </div>
