@@ -54,6 +54,7 @@
 </header>
 <div class="navigation">
   <ul>
+    <li class="sale"><a href="/sale">Спецпредложение</a></li>
     <li><a href="/#about">О компании</a></li>
     <li>
       <a href="/#catalog">Каталог продукции</a>
@@ -95,7 +96,7 @@
       <li><a href="/news">Новости</a></li>
     <li><a href="/#cert">Сертификаты</a></li>
     <li><a href="/contacts">Контакты</a></li>
-    <li class="navmenu">Навигация</li>
+    <li class="navmenu">Меню</li>
   </ul>
 </div>
 

@@ -31,7 +31,7 @@ header .main-line {
   padding-right: 15px;
 }
 
-@media (max-width: 470px) {
+@media (max-width: 960px) {
   header .main-line {
     max-height: 90px;
   }
@@ -137,6 +137,20 @@ header .main-line .backcall:hover {
           box-shadow: 0px 10px 35px rgba(25, 221, 67, 0.377);
 }
 
+@media (max-width: 960px) {
+  header .main-line .backcall {
+    padding: 10px 37px;
+    margin-top: -30px;
+    margin-right: -5px;
+  }
+  header .main-line .backcall::before {
+    position: absolute;
+    content: "8 (800) 101 64 23";
+    margin-top: 38px;
+    color: black;
+  }
+}
+
 .navigation {
   position: -webkit-sticky;
   position: sticky;
@@ -150,11 +164,18 @@ header .main-line .backcall:hover {
 }
 
 .navigation .sale {
-  background: #ff5555;
+  background: #ff5555 !important;
+  color: white !important;
+}
+
+@media (min-width: 680px) {
+  .navigation .sale {
+    display: none;
+  }
 }
 
 .navigation .sale:hover {
-  background: #ee4343;
+  background: #ee4343 !important;
 }
 
 .navigation.active {
