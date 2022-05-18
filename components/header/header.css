@@ -169,7 +169,7 @@ header .main-line .backcall:hover {
 }
 
 @media (min-width: 680px) {
-  .navigation .sale {
+  .navigation .sale.mini-sale {
     display: none;
   }
 }

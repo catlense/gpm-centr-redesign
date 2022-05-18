@@ -127,7 +127,9 @@ header {
 
   .sale {
     @media(min-width: 680px) {
-      display: none;
+      &.mini-sale {
+        display: none;
+      }
     }
     background: rgb(255, 85, 85) !important;
     color: white !important;

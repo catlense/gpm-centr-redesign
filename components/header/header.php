@@ -54,7 +54,7 @@
 </header>
 <div class="navigation">
   <ul>
-    <li class="sale"><a href="/sale">Спецпредложение</a></li>
+    <li class="sale mini-sale"><a href="/sale">Спецпредложение</a></li>
     <li><a href="/#about">О компании</a></li>
     <li>
       <a href="/#catalog">Каталог продукции</a>
